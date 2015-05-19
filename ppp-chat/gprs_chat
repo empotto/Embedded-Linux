@@ -1,0 +1,15 @@
+ABORT   'BUSY'
+ABORT   'NO CARRIER'
+ABORT   'ERROR'
+''      AT
+OK      AT&K0
+OK      AT+CREG?
+OK      AT+FCLASS=0
+OK      AT+CGATT=1
+OK      AT#USERID="" 
+OK      AT#PASSW=""
+OK      AT#GAUTH=0
+OK      AT+CGDCONT=1,"IP","internet","0.0.0.0",0,0
+OK      ATDT*99***1#
+
+

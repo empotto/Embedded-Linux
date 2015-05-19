@@ -1,0 +1,18 @@
+/dev/ttyO2
+115200
+connect '/usr/sbin/chat -v -f /etc/ppp/peers/gprs_chat -e'
+noauth
+defaultroute
+novj
+asyncmap 0
+usepeerdns
+updetach
+debug
+kdebug 7
+lock
+modem
+lcp-echo-interval 30
+lcp-echo-failure 4
+lcp-max-configure 60
+lcp-restart 2
+idle 600
